@@ -1,0 +1,48 @@
+## Data and caches (can be reproduced by running download scripts)
+data/cache/
+data/checkpoints/
+data/esm2_gene_embeddings.pt
+results/leaderboard.csv
+results/figures/
+
+## Project planning / internal artefacts
+sc-vcbench-plan.jsx
+CLAUDE.md
+playground.ipynb
+
+## Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+## Jupyter
+.ipynb_checkpoints/
+*.ipynb~
+
+## OS
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+## IDE
+.vscode/
+.idea/
+
+## Models / large binary files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+## Conda
+*.conda

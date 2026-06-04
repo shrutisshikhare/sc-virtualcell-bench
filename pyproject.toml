@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sc-virtualcell-bench"
+version = "0.1.0"
+description = "Benchmarking framework for single-cell perturbation foundation models (Virtual Cell Challenge 2025 standards)"
+requires-python = ">=3.10"
+readme = "README.md"
+license = { text = "MIT" }
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["data*", "eval*", "models*"]
+
+[tool.setuptools.package-dir]
+"" = "."
