@@ -1,5 +1,7 @@
 # sc-virtualcell-bench
 
+## Ongoing Project - Early Phase
+
 **Rigorous benchmarking of single-cell perturbation foundation models against strong statistical baselines, aligned with the [Arc Institute Virtual Cell Challenge 2025](https://virtualcellchallenge.org/) evaluation standards.**
 
 > *Does zero-shot scGPT actually beat a mean predictor on perturbation response?*
